@@ -1,0 +1,24 @@
+//Author Sunyang Fu; Sunghwan Sohn
+
+//Anterolateral
+RULENAME="cm_approach1",REGEXP="\b(%reAnterolateralDirect)\b",LOCATION="NA",NORM="anterolateral"
+RULENAME="cm_approach2",REGEXP="\b(%reAnterolateralIndirectObject) (\S+\s+){0,3}(%reAnterolateralIndirectPredicate)\b",LOCATION="NA",NORM="anterolateral"
+
+//Anterior
+RULENAME="cm_approach3",REGEXP="\b(%reAnterior)\b",LOCATION="NA",NORM="anterior"
+
+//Posterior
+RULENAME="cm_approach4",REGEXP="\b(%rePosteriorDirect)\b",LOCATION="NA",NORM="posterior"
+RULENAME="cm_approach5",REGEXP="\b(%rePosteriorIndirectObject) (\S+\s+){0,3}(%rePosteriorIndirectPredicate)\b",LOCATION="NA",NORM="posterior"
+
+//Exclusive
+RULENAME="approach1_excl",REGEXP="\b(%reExc)\b",LOCATION="NA",NORM="EXCLUSION_anterolateral"
+RULENAME="approach2_excl",REGEXP="\b(%reExc)\b",LOCATION="NA",NORM="EXCLUSION_anterolateral"
+RULENAME="approach3_excl",REGEXP="\b(%reExc)\b",LOCATION="NA",NORM="EXCLUSION_anterior"
+RULENAME="approach4_excl",REGEXP="\b(%reExc)\b",LOCATION="NA",NORM="EXCLUSION_posterior"
+RULENAME="approach5_excl",REGEXP="\b(%reExc)\b",LOCATION="NA",NORM="EXCLUSION_posterior"
+
+
+
+
+

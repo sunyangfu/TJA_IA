@@ -1,0 +1,19 @@
+polyethylene
+poly
+plastic
+ultra-high molecular weight polyethylene
+ultra high molecular weight polyethylene
+highly crosslinked poly
+highly crosslinked poly ethylene
+ply
+liner
+insert
+xlpe
+a.+class (\S?\s?){0,3}procotyl
+e.+Class (\S?\s?){0,3}procotyl
+a.+class (\S?\s?){0,3}dynasty
+a.+class liner
+a-class flat
+a.+class flat
+a.+class
+dynasty

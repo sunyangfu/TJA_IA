@@ -1,0 +1,18 @@
+marathon
+longevity
+crossfire
+cross
+durasul
+x3
+altrx
+prolong
+vivacit-e
+vivacit.?e
+aox
+e1
+arcom
+a.+class (\S?\s?){0,3}procotyl
+e.+Class (\S?\s?){0,3}procotyl
+a.+class (\S?\s?){0,3}dynasty
+prime
+crosslink poly neutral

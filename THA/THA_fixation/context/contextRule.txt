@@ -1,0 +1,530 @@
+regex:who also had~|~pseudo~|~hypoexp~|~1
+regex:symptomatology~|~post~|~poss~|~1
+regex:pmhx~|~pre~|~hist~|~1
+regex:fmhx~|~pre~|~hist~|~1
+regex:fmhx~|~pre~|~exp~|~1
+regex:family history~|~pre~|~exp~|~1
+regex:family history~|~pre~|~hist~|~1
+regex:family member~|~pre~|~exp~|~1
+regex:likely to pursue~|~pseudo~|~poss~|~1
+regex:likely success~|~pseudo~|~poss~|~1
+regex:likely failure~|~pseudo~|~poss~|~1
+regex:cousins?~|~pre~|~exp~|~1
+regex:trace~|~pre~|~poss~|~1
+regex:prn~|~pre~|~hypo~|~1
+regex:possible~|~pre~|~hypo~|~1
+regex:potential~|~pre~|~poss~|~1
+regex:mild~|~pre~|~poss~|~1
+regex:(will|would|should) be considered~|~post~|~hypo~|~1
+regex:considered~|~pre~|~hypo~|~1
+regex:consider~|~pre~|~hypo~|~1
+regex:consideration~|~pre~|~hypo~|~1
+regex:should (consider|have|be offered)~|~pre~|~hypo~|~1
+regex:scheduled~|~pre~|~hypo~|~1
+regex:planned~|~pre~|~hypo~|~1
+regex:plans for~|~pre~|~hypo~|~1
+regex:plan for~|~pre~|~hypo~|~1
+regex:plans are~|~pre~|~hypo~|~1
+regex:candidate for~|~pre~|~hypo~|~1
+regex:put off~|~pre~|~hypo~|~1
+regex:vs~|~pre~|~hypo~|~1
+regex:discuss(ed|ion)?~|~pre~|~hypo~|~1
+regex:versus~|~pre~|~hypo~|~1
+regex:referred~|~pre~|~hypo~|~1
+regex:advised~|~pre~|~hypo~|~1
+regex:chance~|~pre~|~hypo~|~1
+regex:risky~|~post~|~poss~|~1
+regex:recommended~|~post~|~poss~|~1
+regex:if experiences worsening~|~pre~|~hypo~|~1
+regex:(does not|doesn't) (appear to )?have~|~pre~|~neg~|~1
+regex:excluding~|~pre~|~neg~|~1
+regex:ruled out~|~pre~|~neg~|~1
+regex:differential diagnosis~|~pre~|~poss~|~1
+regex:would not want to have~|~pre~|~neg~|~1
+regex:\(?declined\s?(\S+\s?){0,4}~|~pre~|~neg~|~1
+regex:appears?~|~pre~|~poss~|~1
+regex:suspects?~|~pre~|~poss~|~1
+regex:to evaluate~|~pre~|~poss~|~1
+regex:indeterminate~|~post~|~poss~|~1
+regex:indeterminable~|~pre~|~poss~|~1
+regex:to prevent~|~pre~|~hypo~|~1
+regex:has been instructed~|~pre~|~hypo~|~1
+regex:has been instructed in the signs?~|~pre~|~hypo~|~1
+regex:should the patient develop~|~pre~|~hypo~|~1
+regex:no\n~|~post~|~neg~|~1
+regex:none current~|~post~|~neg~|~1
+regex:no current~|~post~|~neg~|~1
+regex:hx~|~pre~|~hist~|~1
+regex:previous~|~pre~|~hist~|~1
+regex:previously undergone~|~pre~|~hist~|~1
+regex:after undergoing~|~pre~|~hist~|~1
+regex:deny~|~pre~|~neg~|~1
+regex:no ?:~|~pre~|~neg~|~1
+regex:\(no~|~pre~|~neg~|~1
+regex:\S+\-\-no~|~pre~|~neg~|~1
+regex:don't sound like~|~pre~|~neg~|~1
+regex:doesn't sound like~|~pre~|~neg~|~1
+regex:\-? all of which(\s+\S+){0,3} (denies|denied)~|~post~|~neg~|~1
+regex:denies any of the following symptoms:~|~pre~|~neg~|~1
+regex:denies, however,~|~pre~|~neg~|~1
+regex:denies any (associated|significant)~|~pre~|~neg~|~1
+regex:precaution for~|~pre~|~poss~|~1
+regex:resection of~|~pre~|~hist~|~1
+regex:debridement of~|~pre~|~hist~|~1
+regex:indication for~|~pre~|~hist~|~1
+regex:admitted for~|~pre~|~hist~|~1
+regex:likely~|~pre~|~poss~|~1
+regex:did deny~|~pre~|~neg~|~1
+regex:no source (of|for)~|~pre~|~poss~|~1
+regex:did not show much (of|for)~|~pre~|~poss~|~1
+regex:no definite findings? (for|of)~|~pre~|~poss~|~1
+regex:concerned about~|~pre~|~poss~|~1
+regex:would~|~pre~|~poss~|~1
+regex:could have~|~pre~|~poss~|~1
+regex:may have~|~pre~|~poss~|~1
+regex:raises? the question (of|for)~|~pre~|~poss~|~1
+regex:highly unlikely~|~pre~|~poss~|~1
+regex:did not show any~|~pre~|~neg~|~1
+regex:do not show any~|~pre~|~neg~|~1
+regex:does not show any~|~pre~|~neg~|~1
+regex:suspicious (for|of)~|~pre~|~poss~|~1
+regex:suspicion (for|of)~|~pre~|~poss~|~1
+regex:a question (of|for)~|~pre~|~poss~|~1
+regex:without evidence (of|for)~|~pre~|~neg~|~1
+regex:without signs? (of|for)~|~pre~|~neg~|~1
+regex:did not demonstrate~|~pre~|~neg~|~1
+regex:suggests?~|~pre~|~poss~|~1
+regex:neg (of|for)~|~pre~|~neg~|~1
+regex:whether~|~pre~|~hypo~|~1
+regex:sounds? (more )?like~|~pre~|~poss~|~1
+regex:looks? (more )?like~|~pre~|~poss~|~1
+regex:review the use~|~pre~|~poss~|~1
+regex:reviewed~|~pre~|~poss~|~1
+regex:likely~|~post~|~poss~|~1
+regex:will have~|~pre~|~hypo~|~1
+regex:may be~|~pre~|~poss~|~1
+regex:for excluding~|~pre~|~poss~|~1
+regex:potentially represent~|~pre~|~poss~|~1
+regex:possibility (of|for)~|~pre~|~poss~|~1
+regex:should symptoms suggesting~|~pre~|~poss~|~1
+regex:look for~|~pre~|~hypo~|~1
+regex:no evidences? (of|for)~|~pre~|~neg~|~1
+regex:no signs? (of|for)~|~pre~|~neg~|~1
+regex:high(-| )risk that (she|the patient|he) is at for~|~pre~|~hypo~|~1
+regex:risks? (of|for)~|~pre~|~hypo~|~1
+regex:(?<!cardiovascular.)\b(risks?)~|~pre~|~hypo~|~1
+regex:status(-| )post~|~pre~|~hist~|~1
+regex:s/p~|~pre~|~hist~|~1
+regex:at high-risk (of|for)~|~pre~|~hypo~|~1
+regex:at(-| )risk (of|for)~|~pre~|~hypo~|~1
+regex:re-?assess~|~pre~|~hypo~|~1
+regex:assess~|~pre~|~hypo~|~1
+regex:prior~|~pre~|~hist~|~1
+regex:pmh (of|for)~|~pre~|~hist~|~1
+regex:concern~|~pre~|~poss~|~1
+regex:concerning~|~pre~|~poss~|~1
+regex:is concerned~|~post~|~poss~|~1
+regex:is concerned (of|for)~|~pre~|~poss~|~1
+regex:a concern (of|for)~|~pre~|~poss~|~1
+regex:is possible~|~post~|~poss~|~1
+regex:is probable~|~post~|~poss~|~1
+regex:is potentional~|~post~|~poss~|~1
+regex:no overt clinical signs? (of|for)~|~pre~|~neg~|~1
+regex:monitor (of|for)~|~pre~|~hypo~|~1
+regex:no source (of|for)~|~pre~|~neg~|~1
+regex:(was|is) ruled out (of|for)~|~pre~|~neg~|~1
+regex:no evidence (of|for)~|~pre~|~neg~|~1
+regex:(was|is) negative (of|for)~|~pre~|~neg~|~1
+regex:probable~|~pre~|~poss~|~1
+regex:possible~|~pre~|~poss~|~1
+regex:potential~|~pre~|~poss~|~1
+regex:probable (of|for)~|~pre~|~poss~|~1
+regex:possible (of|for)~|~pre~|~poss~|~1
+regex:potential (of|for)~|~pre~|~poss~|~1
+regex:negative~|~pre~|~neg~|~1
+regex:is possible~|~post~|~poss~|~1
+regex:is probable~|~post~|~poss~|~1
+regex:is negative~|~post~|~neg~|~1
+regex:was possible~|~post~|~poss~|~1
+regex:was probable~|~post~|~poss~|~1
+regex:was negative~|~post~|~neg~|~1
+regex:: ?no~|~post~|~neg~|~1
+regex:: ?none~|~post~|~neg~|~1
+regex:asymptomatic~|~pre~|~neg~|~1
+regex:absence (of|for)~|~pre~|~neg~|~1
+regex:adequate to rule her out~|~pre~|~neg~|~1
+regex:adequate to rule him out~|~pre~|~neg~|~1
+regex:adequate to rule out~|~pre~|~neg~|~1
+regex:adequate to rule the patient out~|~pre~|~neg~|~1
+regex:although~|~termin~|~neg~|~1
+regex:any other~|~pre~|~neg~|~1
+regex:apart from~|~termin~|~neg~|~1
+regex:are ruled out~|~post~|~neg~|~1
+regex:as a cause (of|for)~|~termin~|~neg~|~1
+regex:as a etiology for~|~termin~|~neg~|~1
+regex:as a etiology of~|~termin~|~neg~|~1
+regex:as a reason for~|~termin~|~neg~|~1
+regex:as a reason of~|~termin~|~neg~|~1
+regex:as a secondary cause for~|~termin~|~neg~|~1
+regex:as a secondary cause of~|~termin~|~neg~|~1
+regex:as a secondary etiology for~|~termin~|~neg~|~1
+regex:as a secondary etiology of~|~termin~|~neg~|~1
+regex:as a secondary origin for~|~termin~|~neg~|~1
+regex:as a secondary origin of~|~termin~|~neg~|~1
+regex:as a secondary reason for~|~termin~|~neg~|~1
+regex:as a secondary reason of~|~termin~|~neg~|~1
+regex:as a secondary source for~|~termin~|~neg~|~1
+regex:as a secondary source of~|~termin~|~neg~|~1
+regex:as a source for~|~termin~|~neg~|~1
+regex:as a source of~|~termin~|~neg~|~1
+regex:as a cause for~|~termin~|~neg~|~1
+regex:as a cause of~|~termin~|~neg~|~1
+regex:as an etiology for~|~termin~|~neg~|~1
+regex:as an etiology of~|~termin~|~neg~|~1
+regex:as an origin for~|~termin~|~neg~|~1
+regex:as an origin of~|~termin~|~neg~|~1
+regex:as a reason for~|~termin~|~neg~|~1
+regex:as a reason of~|~termin~|~neg~|~1
+regex:as a secondary cause for~|~termin~|~neg~|~1
+regex:as a secondary cause of~|~termin~|~neg~|~1
+regex:as a secondary etiology for~|~termin~|~neg~|~1
+regex:as a secondary etiology of~|~termin~|~neg~|~1
+regex:as a secondary origin for~|~termin~|~neg~|~1
+regex:as a secondary origin of~|~termin~|~neg~|~1
+regex:as a secondary reason for~|~termin~|~neg~|~1
+regex:as a secondary reason of~|~termin~|~neg~|~1
+regex:as a secondary source for~|~termin~|~neg~|~1
+regex:as a secondary source of~|~termin~|~neg~|~1
+regex:as a source for~|~termin~|~neg~|~1
+regex:as a source of~|~termin~|~neg~|~1
+regex:as has~|~termin~|~neg~|~1
+regex:as needed~|~pre~|~hypo~|~1
+regex:as the cause for~|~termin~|~neg~|~1
+regex:as the cause of~|~termin~|~neg~|~1
+regex:as the etiology for~|~termin~|~neg~|~1
+regex:as the etiology of~|~termin~|~neg~|~1
+regex:as the origin for~|~termin~|~neg~|~1
+regex:as the origin of~|~termin~|~neg~|~1
+regex:as the reason for~|~termin~|~neg~|~1
+regex:as the reason of~|~termin~|~neg~|~1
+regex:as the secondary cause for~|~termin~|~neg~|~1
+regex:as the secondary cause of~|~termin~|~neg~|~1
+regex:as the secondary etiology for~|~termin~|~neg~|~1
+regex:as the secondary etiology of~|~termin~|~neg~|~1
+regex:as the secondary origin for~|~termin~|~neg~|~1
+regex:as the secondary origin of~|~termin~|~neg~|~1
+regex:as the secondary reason for~|~termin~|~neg~|~1
+regex:as the secondary reason of~|~termin~|~neg~|~1
+regex:as the secondary source for~|~termin~|~neg~|~1
+regex:as the secondary source of~|~termin~|~neg~|~1
+regex:as the source for~|~termin~|~neg~|~1
+regex:as the source of~|~termin~|~neg~|~1
+regex:as well as any~|~pre~|~neg~|~1
+regex:aside from~|~termin~|~neg~|~1
+regex:aunts?~|~pre~|~exp~|~1
+regex:aunt's~|~pre~|~exp~|~1
+regex:be ruled out~|~post~|~poss~|~1
+regex:be ruled out for~|~pre~|~poss~|~1
+regex:because~|~termin~|~hypo~|~1
+regex:being ruled out~|~post~|~poss~|~1
+regex:brother~|~pre~|~exp~|~1
+regex:brother's~|~pre~|~exp~|~1
+regex:brothers~|~pre~|~exp~|~1
+regex:but~|~termin~|~neg~|~1
+regex:can be ruled out~|~post~|~neg~|~1
+regex:can be ruled out for~|~pre~|~neg~|~1
+regex:can rule her out~|~pre~|~neg~|~1
+regex:can rule her out against~|~pre~|~neg~|~1
+regex:can rule her out for~|~pre~|~neg~|~1
+regex:can rule him out~|~pre~|~neg~|~1
+regex:can rule him out against~|~pre~|~neg~|~1
+regex:can rule him out for~|~pre~|~neg~|~1
+regex:can rule out~|~pre~|~neg~|~1
+regex:can rule out against~|~pre~|~neg~|~1
+regex:can rule out for~|~pre~|~neg~|~1
+regex:can rule the patient out~|~pre~|~neg~|~1
+regex:can rule the patinet out against~|~pre~|~neg~|~1
+regex:can rule the patinet out for~|~pre~|~neg~|~1
+regex:cannot~|~pre~|~neg~|~1
+regex:cause for~|~termin~|~neg~|~1
+regex:cause of~|~termin~|~neg~|~1
+regex:causes for~|~termin~|~neg~|~1
+regex:causes of~|~termin~|~neg~|~1
+regex:checked for~|~pre~|~neg~|~1
+regex:clear of~|~pre~|~neg~|~1
+regex:come back for~|~pre~|~hypo~|~1
+regex:come back to~|~pre~|~hypo~|~1
+regex:complains~|~termin~|~histexp~|~1
+regex:could be ruled out~|~post~|~poss~|~1
+regex:could be ruled out for~|~pre~|~poss~|~1
+regex:currently~|~termin~|~histexp~|~1
+regex:dad~|~pre~|~exp~|~1
+regex:dad's~|~pre~|~exp~|~1
+regex:declined~|~pre~|~neg~|~1
+regex:declines~|~pre~|~neg~|~1
+regex:denied~|~pre~|~neg~|~1
+regex:denies~|~pre~|~neg~|~1
+regex:denying~|~pre~|~neg~|~1
+regex:did not rule out~|~post~|~poss~|~1
+regex:did rule her out~|~pre~|~neg~|~1
+regex:did rule her out against~|~pre~|~neg~|~1
+regex:did rule her out for~|~pre~|~neg~|~1
+regex:did rule him out~|~pre~|~neg~|~1
+regex:did rule him out against~|~pre~|~neg~|~1
+regex:did rule him out for~|~pre~|~neg~|~1
+regex:did rule out~|~pre~|~neg~|~1
+regex:did rule out against~|~pre~|~neg~|~1
+regex:did rule out for~|~pre~|~neg~|~1
+regex:did rule the patient out~|~pre~|~neg~|~1
+regex:did rule the patient out against~|~pre~|~neg~|~1
+regex:did rule the patient out for~|~pre~|~neg~|~1
+regex:doesn't look like~|~pre~|~neg~|~1
+regex:ed~|~termin~|~hist~|~1
+regex:emergency department~|~termin~|~hist~|~1
+regex:etiology for~|~termin~|~neg~|~1
+regex:etiology of~|~termin~|~neg~|~1
+regex:evaluate for~|~pre~|~neg~|~1
+regex:except~|~termin~|~neg~|~1
+regex:fails to reveal~|~pre~|~neg~|~1
+regex:family~|~pre~|~exp~|~1
+regex:fam hx~|~pre~|~exp~|~1
+regex:father~|~pre~|~exp~|~1
+regex:father's~|~pre~|~exp~|~1
+regex:free~|~post~|~neg~|~1
+regex:free of~|~pre~|~neg~|~1
+regex:gram negative~|~pseudo~|~neg~|~1
+regex:grandfather~|~pre~|~exp~|~1
+regex:grandfather's~|~pre~|~exp~|~1
+regex:grandmother~|~pre~|~exp~|~1
+regex:grandmother's~|~pre~|~exp~|~1
+regex:has been negative~|~post~|~neg~|~1
+regex:has been ruled out~|~post~|~neg~|~1
+regex:have been ruled out~|~post~|~neg~|~1
+regex:her~|~termin~|~hypoexp~|~1
+regex:his~|~termin~|~hypoexp~|~1
+regex:hx of~|~pre~|~hist~|~1
+regex:h/o~|~pre~|~hist~|~1
+regex:status-?post~|~pre~|~hist~|~1
+regex:status post~|~pre~|~hist~|~1
+regex:years? ago~|~pre~|~hist~|~1
+regex:years? ago~|~post~|~hist~|~1
+regex:has had~|~pre~|~hist~|~1
+regex:had~|~pre~|~hist~|~1
+regex:underwent~|~pre~|~hist~|~1
+regex:husband~|~pre~|~exp~|~1
+regex:ho~|~pre~|~hist~|~1
+regex:history~|~pre~|~hist~|~1
+regex:history of~|~pre~|~hist~|~1
+regex:history and~|~pseudo~|~hist~|~1
+regex:history and examination~|~pseudo~|~hist~|~1
+regex:history and physical~|~pseudo~|~hist~|~1
+regex:history for~|~pseudo~|~hist~|~1
+regex:history of chief complaint~|~pseudo~|~hist~|~1
+regex:history of present illness~|~pseudo~|~hist~|~1
+regex:history taking~|~pseudo~|~hist~|~1
+regex:history, physical\~|~pseudo~|~hist~|~1
+regex:however~|~termin~|~neg~|~1
+regex:if~|~pre~|~hypo~|~1
+regex:if negative~|~pseudo~|~hypo~|~1
+regex:inconsistent with~|~pre~|~neg~|~1
+regex:is not~|~pre~|~neg~|~1
+regex:is ruled out~|~post~|~neg~|~1
+regex:is to be ruled out~|~post~|~poss~|~1
+regex:is to be ruled out for~|~pre~|~poss~|~1
+regex:isn't~|~pre~|~neg~|~1
+regex:lack of~|~pre~|~neg~|~1
+regex:lacked~|~pre~|~neg~|~1
+regex:may be ruled out~|~post~|~poss~|~1
+regex:may be ruled out for~|~pre~|~poss~|~1
+regex:discussed~|~pre~|~poss~|~1
+regex:might be ruled out~|~post~|~poss~|~1
+regex:might be ruled out for~|~pre~|~poss~|~1
+regex:mom~|~pre~|~exp~|~1
+regex:mom's~|~pre~|~exp~|~1
+regex:mother~|~pre~|~exp~|~1
+regex:mother's~|~pre~|~exp~|~1
+regex:must be ruled out~|~post~|~poss~|~1
+regex:must be ruled out for~|~pre~|~poss~|~1
+regex:negative for~|~pre~|~neg~|~1
+regex:never developed~|~pre~|~neg~|~1
+regex:never had~|~pre~|~neg~|~1
+regex:nevertheless~|~termin~|~neg~|~1
+regex:no~|~pre~|~neg~|~1
+regex:no abnormal~|~pre~|~neg~|~1
+regex:no cause of~|~pre~|~neg~|~1
+regex:no change~|~pseudo~|~neg~|~1
+regex:no complaints of~|~pre~|~neg~|~1
+regex:no definite change~|~pseudo~|~neg~|~1
+regex:no evidence~|~pre~|~neg~|~1
+regex:no evidence to suggest~|~pre~|~neg~|~1
+regex:no findings of~|~pre~|~neg~|~1
+regex:no findings to indicate~|~pre~|~neg~|~1
+regex:no history of~|~pre~|~neg~|~1
+regex:no increase~|~pseudo~|~neg~|~1
+regex:no interval change~|~pseudo~|~neg~|~1
+regex:no longer present~|~post~|~neg~|~1
+regex:no mammographic evidence of~|~pre~|~neg~|~1
+regex:no new~|~pre~|~neg~|~1
+regex:no new evidence~|~pre~|~neg~|~1
+regex:no other evidence~|~pre~|~neg~|~1
+regex:no radiographic evidence of~|~pre~|~neg~|~1
+regex:no sign of~|~pre~|~neg~|~1
+regex:no significant~|~pre~|~neg~|~1
+regex:no significant change~|~pseudo~|~neg~|~1
+regex:no significant interval change~|~pseudo~|~neg~|~1
+regex:no signs of~|~pre~|~neg~|~1
+regex:no suggestion of~|~pre~|~neg~|~1
+regex:no suspicious~|~pre~|~neg~|~1
+regex:no suspicious change~|~pseudo~|~neg~|~1
+regex:non diagnostic~|~post~|~neg~|~1
+regex:not~|~pre~|~neg~|~1
+regex:not appear~|~pre~|~neg~|~1
+regex:not appreciate~|~pre~|~neg~|~1
+regex:not associated with~|~pre~|~neg~|~1
+regex:not been ruled out~|~post~|~poss~|~1
+regex:not cause~|~pseudo~|~neg~|~1
+regex:not certain if~|~pseudo~|~neg~|~1
+regex:not certain whether~|~pseudo~|~neg~|~1
+regex:not complain of~|~pre~|~neg~|~1
+regex:not demonstrate~|~pre~|~neg~|~1
+regex:not drain~|~pseudo~|~neg~|~1
+regex:not exhibit~|~pre~|~neg~|~1
+regex:not extend~|~pseudo~|~neg~|~1
+regex:not feel~|~pre~|~neg~|~1
+regex:not had~|~pre~|~neg~|~1
+regex:not have~|~pre~|~neg~|~1
+regex:not have evidence of~|~pre~|~neg~|~1
+regex:not know of~|~pre~|~neg~|~1
+regex:not known to have~|~pre~|~neg~|~1
+regex:not necessarily~|~pseudo~|~neg~|~1
+regex:not on~|~pseudo~|~neg~|~1
+regex:not only~|~pseudo~|~neg~|~1
+regex:not recommended~|~post~|~neg~|~1
+regex:not recommend~|~pre~|~neg~|~1
+regex:not recommending~|~pre~|~neg~|~1
+regex:not reveal~|~pre~|~neg~|~1
+regex:not ruled out~|~post~|~poss~|~1
+regex:not see~|~pre~|~neg~|~1
+regex:not to be~|~pre~|~neg~|~1
+regex:nothing to suggest~|~pre~|~neg~|~1
+regex:noted~|~termin~|~histexp~|~1
+regex:now resolved~|~post~|~neg~|~1
+regex:origin for~|~termin~|~neg~|~1
+regex:origin of~|~termin~|~neg~|~1
+regex:origins for~|~termin~|~neg~|~1
+regex:origins of~|~termin~|~neg~|~1
+regex:other possibilities of~|~termin~|~neg~|~1
+regex:ought to be ruled out~|~post~|~poss~|~1
+regex:ought to be ruled out for~|~pre~|~poss~|~1
+regex:past history~|~pre~|~hist~|~1
+regex:past~|~pre~|~hist~|~1
+regex:following up~|~pre~|~hist~|~1
+regex:following~|~pre~|~hist~|~1
+regex:received~|~pre~|~hist~|~1
+regex:past medical history~|~pre~|~hist~|~1
+regex:patient~|~termin~|~hypoexp~|~1
+regex:patient was not~|~pre~|~neg~|~1
+regex:patient's~|~termin~|~hypoexp~|~1
+regex:poor history~|~pseudo~|~hist~|~1
+regex:presenting~|~termin~|~histexp~|~1
+regex:presents~|~termin~|~histexp~|~1
+regex:prophylaxis~|~post~|~neg~|~1
+regex:r/o~|~pre~|~neg~|~1
+regex:rather than~|~pre~|~neg~|~1
+regex:reason for~|~termin~|~neg~|~1
+regex:reason of~|~termin~|~neg~|~1
+regex:reasons for~|~termin~|~neg~|~1
+regex:reasons of~|~termin~|~neg~|~1
+regex:reported~|~termin~|~histexp~|~1
+regex:reports~|~termin~|~histexp~|~1
+regex:resolved~|~pre~|~neg~|~1
+regex:return~|~pre~|~hypo~|~1
+regex:ro~|~pre~|~neg~|~1
+regex:rule her out~|~pre~|~neg~|~1
+regex:rule her out for~|~pre~|~neg~|~1
+regex:rule him out~|~pre~|~neg~|~1
+regex:rule him out for~|~pre~|~neg~|~1
+regex:rule out~|~pre~|~neg~|~1
+regex:rule out for~|~pre~|~neg~|~1
+regex:rule the patient out~|~pre~|~neg~|~1
+regex:rule the patinet out for~|~pre~|~neg~|~1
+regex:ruled her out~|~pre~|~neg~|~1
+regex:ruled her out against~|~pre~|~neg~|~1
+regex:ruled her out for~|~pre~|~neg~|~1
+regex:ruled him out~|~pre~|~neg~|~1
+regex:ruled him out against~|~pre~|~neg~|~1
+regex:ruled him out for~|~pre~|~neg~|~1
+regex:ruled out~|~pre~|~neg~|~1
+regex:ruled out against~|~pre~|~neg~|~1
+regex:ruled out for~|~pre~|~neg~|~1
+regex:ruled the patient out~|~pre~|~neg~|~1
+regex:ruled the patient out against~|~pre~|~neg~|~1
+regex:ruled the patient out for~|~pre~|~neg~|~1
+regex:rules her out~|~pre~|~neg~|~1
+regex:rules her out for~|~pre~|~neg~|~1
+regex:rules him out~|~pre~|~neg~|~1
+regex:rules him out for~|~pre~|~neg~|~1
+regex:rules out~|~pre~|~neg~|~1
+regex:rules out for~|~pre~|~neg~|~1
+regex:rules the patient out~|~pre~|~neg~|~1
+regex:rules the patient out for~|~pre~|~neg~|~1
+regex:secondary~|~termin~|~neg~|~1
+regex:secondary to~|~termin~|~neg~|~1
+regex:should be ruled out~|~post~|~neg~|~1
+regex:should be ruled out for~|~pre~|~neg~|~1
+regex:should he~|~pre~|~hypo~|~1
+regex:should she~|~pre~|~hypo~|~1
+regex:should the patient~|~pre~|~hypo~|~1
+regex:should there~|~pre~|~hypo~|~1
+regex:since~|~termin~|~hypo~|~1
+regex:sister~|~pre~|~exp~|~1
+regex:sister's~|~pre~|~exp~|~1
+regex:social history~|~pseudo~|~hist~|~1
+regex:son~|~pre~|~exp~|~1
+regex:source for~|~termin~|~neg~|~1
+regex:source of~|~termin~|~neg~|~1
+regex:sources for~|~termin~|~neg~|~1
+regex:sources of~|~termin~|~neg~|~1
+regex:states~|~termin~|~histexp~|~1
+regex:still~|~termin~|~neg~|~1
+regex:sudden onset of~|~pseudo~|~hist~|~1
+regex:sufficient to rule her out~|~pre~|~neg~|~1
+regex:sufficient to rule her out against~|~pre~|~neg~|~1
+regex:sufficient to rule her out for~|~pre~|~neg~|~1
+regex:sufficient to rule him out~|~pre~|~neg~|~1
+regex:sufficient to rule him out against~|~pre~|~neg~|~1
+regex:sufficient to rule him out for~|~pre~|~neg~|~1
+regex:sufficient to rule out~|~pre~|~neg~|~1
+regex:sufficient to rule out against~|~pre~|~neg~|~1
+regex:sufficient to rule out for~|~pre~|~neg~|~1
+regex:sufficient to rule the patient out~|~pre~|~neg~|~1
+regex:sufficient to rule the patient out against~|~pre~|~neg~|~1
+regex:sufficient to rule the patient out for~|~pre~|~neg~|~1
+regex:test for~|~pre~|~neg~|~1
+regex:though~|~termin~|~neg~|~1
+regex:to exclude~|~pre~|~neg~|~1
+regex:today~|~termin~|~histexp~|~1
+regex:trigger event for~|~termin~|~neg~|~1
+regex:uncle~|~pre~|~exp~|~1
+regex:uncle's~|~pre~|~exp~|~1
+regex:unlikely~|~post~|~neg~|~1
+regex:unremarkable for~|~pre~|~neg~|~1
+regex:was found~|~termin~|~histexp~|~1
+regex:was negative~|~post~|~neg~|~1
+regex:was not~|~pre~|~neg~|~1
+regex:was ruled out~|~post~|~neg~|~1
+regex:wasn't~|~pre~|~neg~|~1
+regex:what must be ruled out is~|~pre~|~poss~|~1
+regex:which~|~termin~|~exp~|~1
+regex:wife~|~pre~|~exp~|~1
+regex:who~|~termin~|~hypoexp~|~1
+regex:will be ruled out~|~post~|~poss~|~1
+regex:will be ruled out for~|~pre~|~poss~|~1
+regex:with no~|~pre~|~neg~|~1
+regex:without~|~pre~|~neg~|~1
+regex:without any evidence of~|~pre~|~neg~|~1
+regex:without difficulty~|~pseudo~|~neg~|~1
+regex:without evidence~|~pre~|~neg~|~1
+regex:without indication of~|~pre~|~neg~|~1
+regex:without sign of~|~pre~|~neg~|~1
+regex:yet~|~termin~|~neg~|~1

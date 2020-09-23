@@ -1,0 +1,10 @@
+./regexp/resources_regexp_reAnterior.txt
+./regexp/resources_regexp_reAnterolateralDirect.txt
+./regexp/resources_regexp_reAnterolateralIndirectObject.txt
+./regexp/resources_regexp_reAnterolateralIndirectPredicate.txt
+./regexp/resources_regexp_rePosteriorDirect.txt
+./regexp/resources_regexp_rePosteriorIndirectObject.txt
+./regexp/resources_regexp_rePosteriorIndirectPredicate.txt
+./regexp/resources_regexp_reExc.txt
+./rules/resources_rules_matchrules.txt
+./used_resources.txt
